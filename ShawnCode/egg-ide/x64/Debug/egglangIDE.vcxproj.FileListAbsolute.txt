@@ -1,0 +1,2 @@
+C:\Users\Disc0 Heavy\Documents\Visual Studio 2022\Egg-IDE-Master-Branch\egg-ide\x64\Debug\egglangIDE.exe
+C:\Users\Disc0 Heavy\Documents\Visual Studio 2022\ShawnCode\egg-ide\x64\Debug\egglangIDE.exe

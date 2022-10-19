@@ -1,0 +1,202 @@
+#import List.egg
+
+//Comment
+
+/*
+Block
+Comment
+*/
+
+println("this is a println")
+println("one", 2, TRUE)
+print("this is a print")
+
+println()
+
+//INT, FLOAT, BOOLEAN, STRING
+
+VAR var
+
+println(var)
+
+var = 8
+
+println(var)
+
+var = "str"
+
+VAR string_2 = " another string"
+
+VAR integer = 5
+
+println(var + toString(integer))
+
+//AND, OR
+
+IF (integer == 5){
+
+
+}
+
+ELSE IF(TRUE){
+
+}
+
+ELSE{
+
+
+}
+
+
+//Loops
+VAR i = 0
+
+LOOP(i = 0, i < 5, i = i + 1){
+
+print(i)
+
+}
+
+//Functions
+
+println()
+
+DEF func(arg_1){
+
+println("one argument")
+
+
+
+}
+
+
+DEF func(arg_1, arg_2){
+
+println("two arguments")
+
+
+}
+
+func(1)
+
+func(2, 3)
+
+
+VAR arr = {:7}
+
+LOOP(VAR i = 0, i < 7, i = i + 1){
+
+arr[i] = i * 2
+
+println(arr[i])
+
+}
+
+/*
+access
+
+FULL:
+
+READ:
+
+HIDE:
+
+
+
+inheritance
+
+SHARE:
+
+PRIVATE:
+
+
+
+static
+
+STATIC:
+
+DYNAMIC:
+
+
+*/
+
+
+CLASS example {
+
+FULL:
+VAR x = 9
+VAR y = 4
+
+HIDE:
+
+VAR z = 4
+
+DEF example(){
+
+x = 2
+
+}
+
+
+}
+
+VAR exam = MAKE example()
+
+println(exam.x)
+
+
+
+
+CLASS Parent {
+
+FULL:
+
+SHARE:
+
+VAR x = 5
+
+PRIVATE:
+
+VAR t = 5
+
+DEF Parent(){
+
+x = 4
+
+
+}
+
+
+}
+
+CLASS Child : Parent {
+
+DEF Child(){
+
+Parent()
+
+
+}
+
+}
+//NONE
+
+
+VAR ch = MAKE Child()
+
+println(ch.x)
+
+
+VAR list = MAKE List(10)
+
+list.push(4)
+list.push(3)
+list.push(3)
+list.push(3)
+
+
+list.insert(0, 6)
+
+list.print_out()
+
+
